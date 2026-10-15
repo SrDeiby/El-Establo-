@@ -36,8 +36,8 @@ export default function Categories() {
           ))}
         </div>
         <Note n={3} style={{ top: -20, right: 0 }}>
-          Hoy solo hay 2 tarjetas genéricas (“Más información”). Proponemos <b>7 categorías reales</b> con su propia
-          foto, que llevan directo al catálogo.
+          <b>7 categorías</b> con su propia foto, para que cada cliente llegue directo a lo que busca: ropa,
+          botas, sombreros o equipo para el caballo.
         </Note>
       </div>
     </section>

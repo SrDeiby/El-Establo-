@@ -41,8 +41,8 @@ export default function NewArrivals() {
           <a href="#" className="btn btn-dark">Ver toda la tienda →</a>
         </div>
         <Note n={5} style={{ top: -24, left: "30%" }}>
-          Hoy <b>no se puede comprar en la web</b>. Una vitrina de productos con precio, talla y carrito (o “pedir por
-          WhatsApp”) convierte visitas en ventas. Precios de ejemplo.
+          Una <b>vitrina de productos</b> con precio, talla y carrito (o “pedir por WhatsApp”), para que quien
+          visita el sitio pueda comprar en el momento. Precios de ejemplo.
         </Note>
       </div>
     </section>

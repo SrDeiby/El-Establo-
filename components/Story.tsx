@@ -46,8 +46,8 @@ export default function Story() {
           <a href="#" className="link-arrow">Conocé nuestra historia →</a>
         </div>
         <Note n={7} style={{ top: -30, right: 0 }}>
-          Su historia ya existe, pero está enterrada en “Quiénes somos”. Un resumen visual en el home{" "}
-          <b>genera cercanía y confianza</b>.
+          Un resumen de su historia familiar desde 2007, directo en el inicio, para{" "}
+          <b>generar cercanía y confianza</b>.
         </Note>
       </div>
     </section>

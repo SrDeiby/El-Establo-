@@ -35,7 +35,7 @@ export default function HatService() {
         </div>
       </div>
       <Note n={6} style={{ top: 30, right: 30 }}>
-        El servicio de <b>hormado de sombreros</b> es un diferenciador que hoy casi no se ve. Merece su propia sección
+        El servicio de <b>hormado de sombreros</b> los distingue de otras tiendas, así que tiene su propia sección
         con reserva directa.
       </Note>
     </section>

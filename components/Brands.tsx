@@ -12,8 +12,8 @@ export default function Brands() {
         ))}
       </div>
       <Note n={4} style={{ top: 10, left: 24 }}>
-        Las marcas son su mayor argumento de confianza y hoy están escondidas en una subpágina. Aquí van al frente, cada
-        una <b>clickeable a su colección</b> (con logos oficiales en la versión final).
+        Ser distribuidores autorizados de estas marcas genera mucha confianza, así que van al frente, cada una{" "}
+        <b>clickeable a su colección</b> (con logos oficiales en la versión final).
       </Note>
     </div>
   );

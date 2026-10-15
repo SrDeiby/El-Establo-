@@ -22,12 +22,11 @@ export default function Hero() {
       </div>
       <div className="hero-meta">Desde 2007 · Tienda familiar</div>
       <Note n={1} style={{ top: 16, left: "34%" }}>
-        Menú por <b>lo que el cliente busca comprar</b> (Hombre, Mujer, Botas, Sombreros…) en vez de “Quiénes somos /
-        Blog”. Buscador, cuenta y carrito: la web pasa de folleto a tienda.
+        Menú organizado por <b>lo que el cliente busca comprar</b> (Hombre, Mujer, Botas, Sombreros…), con
+        buscador, cuenta y carrito para que el sitio también funcione como tienda.
       </Note>
       <Note n={2} style={{ top: 150, right: 40 }}>
-        Hero con <b>mensaje claro y 2 acciones</b> (comprar / visitar). Hoy el home abre con una foto borrosa y sin
-        llamado a la acción.
+        Portada con sus propias fotos, un <b>mensaje claro y 2 acciones</b>: comprar en línea o visitar la tienda.
       </Note>
     </section>
   );

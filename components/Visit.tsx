@@ -61,8 +61,8 @@ export default function Visit() {
           </div>
         </div>
         <Note n={8} style={{ top: -28, left: 24 }}>
-          Mismos datos de contacto que hoy, pero <b>accionables</b>: indicador “abierto ahora”, botón a Waze, mapa y
-          WhatsApp a un toque.
+          Sus datos de contacto, ahora <b>a un toque</b>: indicador de “abierto ahora”, botón a Waze, mapa y
+          WhatsApp.
         </Note>
       </div>
     </section>
