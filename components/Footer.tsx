@@ -2,9 +2,9 @@ import { contacto } from "@/data/content";
 import { FacebookIcon, InstagramIcon, TikTokIcon } from "./icons";
 
 const columnas = [
-  { titulo: "Tienda", links: ["Hombre", "Mujer", "Niños", "Botas", "Sombreros", "Talabartería"] },
-  { titulo: "Ayuda", links: ["Envíos", "Cambios y devoluciones", "Guía de tallas", "Hormado de sombreros", "Preguntas frecuentes"] },
-  { titulo: "El Establo", links: ["Nuestra historia", "Blog del vaquero", "Visitanos", "Contacto"] },
+  { titulo: "Categorías", links: ["Moda vaquera", "Botas", "Sombreros", "Fajas", "Talabartería", "Seguridad ecuestre"] },
+  { titulo: "Servicios", links: ["Tienda en línea", "Hormado de sombreros", "Visítanos"] },
+  { titulo: "El Establo", links: ["Nuestra historia", "Blog del vaquero", "Contacto"] },
 ];
 
 export default function Footer() {
@@ -39,11 +39,7 @@ export default function Footer() {
         </div>
         <div className="bottom">
           <span>© {new Date().getFullYear()} Tienda El Establo · Liberia, Costa Rica</span>
-          <div className="pay">
-            <span>SINPE Móvil</span>
-            <span>VISA</span>
-            <span>Mastercard</span>
-          </div>
+          <a href={contacto.tiendaVirtual}>Tienda en línea →</a>
         </div>
       </div>
     </footer>

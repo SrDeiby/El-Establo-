@@ -30,24 +30,24 @@ export const contacto = {
   instagram: "https://instagram.com/tiendaelestablo",
   facebook: "https://www.facebook.com/tiendaelestablo",
   tiktok: "https://www.tiktok.com/@tiendaelestablo",
+  // Reemplazar por la URL de la tienda virtual de su sistema de facturación
+  tiendaVirtual: "#tienda-en-linea",
 };
 
 export const anuncios = [
-  "Envíos a todo Costa Rica",
+  "Comprá en línea en nuestra tienda virtual",
   `Compra por WhatsApp · ${contacto.telefono}`,
   "Liberia, Guanacaste · Frente a la Interamericana",
   "Distribuidores autorizados Ariat · Justin · Hooey",
 ];
 
 export const menu = [
-  { label: "Hombre", href: "#tienda" },
-  { label: "Mujer", href: "#tienda" },
-  { label: "Niños", href: "#tienda" },
-  { label: "Botas", href: "#categorias" },
-  { label: "Sombreros", href: "#categorias" },
-  { label: "Talabartería", href: "#categorias" },
+  { label: "Categorías", href: "#categorias" },
   { label: "Marcas", href: "#marcas" },
-  { label: "Ofertas", href: "#tienda", hot: true },
+  { label: "Hormado", href: "#hormado" },
+  { label: "Nuestra historia", href: "#historia" },
+  { label: "Blog", href: "#blog" },
+  { label: "Visítanos", href: "#visitanos" },
 ];
 
 export type Categoria = {
@@ -73,34 +73,6 @@ export const categorias: Categoria[] = [
 export const marcas = [
   "Ariat", "Justin", "Hooey", "Resistol", "Pro Hats", "Twisted X", "Wrangler", "Rock & Roll",
   "Panhandle", "Montana Silversmiths", "Troxel", "Cactus Ropes", "Classic Equine", "Red Dirt", "Lost Calf",
-];
-
-export type Producto = {
-  marca: string;
-  nombre: string;
-  precio: number;
-  antes?: number;
-  tag: string;
-  oferta?: boolean;
-  foto: string;
-  colores: string[];
-  seccion: "Hombre" | "Mujer" | "Caballo";
-};
-
-// Precios de ejemplo para la propuesta
-export const productos: Producto[] = [
-  { marca: "Ariat", nombre: "Bota western de cuero, punta cuadrada", precio: 129900, tag: "Nuevo", foto: img.bota,
-    colores: ["#5a3a22", "#1f1a17", "#a0764e"], seccion: "Hombre" },
-  { marca: "Resistol", nombre: "Sombrero de fieltro 6X, ala 4”", precio: 98500, tag: "Más vendido", foto: img.sombrero,
-    colores: ["#e9e2d4", "#2b2522"], seccion: "Hombre" },
-  { marca: "Twisted X", nombre: "Faja de cuero tallada a mano", precio: 36000, antes: 45000, tag: "-20%", oferta: true,
-    foto: img.faja, colores: ["#8a5530", "#3c2516"], seccion: "Mujer" },
-  { marca: "Classic Equine", nombre: "Cabezada y pechera de cuero", precio: 42500, tag: "Nuevo", foto: img.hocico,
-    colores: ["#3c2516", "#7b1f22"], seccion: "Caballo" },
-  { marca: "Hooey", nombre: "Set western: camisa + accesorios", precio: 54900, tag: "Nuevo", foto: img.productos,
-    colores: ["#7b1f22", "#2f4c6e", "#d8cdb8"], seccion: "Mujer" },
-  { marca: "Cactus Saddlery", nombre: "Montura de trabajo, árbol 15”", precio: 685000, tag: "Pedido especial", foto: img.caballo,
-    colores: ["#8a5530", "#5a3a22"], seccion: "Caballo" },
 ];
 
 export const servicios = [

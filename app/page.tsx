@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import TrustStrip from "@/components/TrustStrip";
 import Categories from "@/components/Categories";
 import Brands from "@/components/Brands";
-import NewArrivals from "@/components/NewArrivals";
+import StoreCTA from "@/components/StoreCTA";
 import HatService from "@/components/HatService";
 import Story from "@/components/Story";
 import Visit from "@/components/Visit";
@@ -27,7 +27,7 @@ export default function Home() {
         <TrustStrip />
         <Categories />
         <Brands />
-        <NewArrivals />
+        <StoreCTA />
         <HatService />
         <Story />
         <Visit />

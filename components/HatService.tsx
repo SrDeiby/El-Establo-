@@ -4,7 +4,7 @@ import Note from "./Note";
 
 export default function HatService() {
   return (
-    <section className="service rel">
+    <section className="service rel" id="hormado">
       <div className="grid">
         <div className="pic">
           <Image src={img.sombrero} alt="Sombrero vaquero listo para hormar" fill sizes="(max-width: 1020px) 100vw, 50vw" style={{ objectPosition: "50% 45%" }} />

@@ -1,6 +1,6 @@
-import { menu } from "@/data/content";
+import { contacto, menu } from "@/data/content";
 import Logo from "./Logo";
-import { BagIcon, HeartIcon, MenuIcon, SearchIcon, UserIcon } from "./icons";
+import { BagIcon, MenuIcon } from "./icons";
 
 export default function Header() {
   return (
@@ -9,19 +9,16 @@ export default function Header() {
         <Logo />
         <nav className="menu">
           {menu.map((m) => (
-            <a key={m.label} href={m.href} className={m.hot ? "hot" : undefined}>
+            <a key={m.label} href={m.href}>
               {m.label}
             </a>
           ))}
         </nav>
         <div className="icons">
-          <button aria-label="Buscar"><SearchIcon /></button>
-          <button aria-label="Cuenta" className="hide-sm"><UserIcon /></button>
-          <button aria-label="Favoritos" className="hide-sm"><HeartIcon /></button>
-          <button aria-label="Carrito">
+          <a href={contacto.tiendaVirtual} className="btn btn-rust btn-sm">
             <BagIcon />
-            <span className="badge">2</span>
-          </button>
+            <span className="hide-sm">Tienda en línea</span>
+          </a>
           <button aria-label="Menú" className="burger"><MenuIcon /></button>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Note from "./Note";
 
 export default function Story() {
   return (
-    <section className="story">
+    <section className="story" id="historia">
       <div className="wrap grid rel">
         <div className="imgs">
           <div className="shot i1">

@@ -110,24 +110,16 @@ section{padding:110px 0}
 .brand-track span:nth-child(3n){font-family:var(--display);font-style:italic;font-weight:500;text-transform:none;letter-spacing:0}
 @keyframes marq{to{transform:translateX(-50%)}}
 
-/* Products */
-.tabs{display:flex;gap:8px;flex-wrap:wrap}
-.tabs button{font-family:var(--cond);font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:13.5px;padding:9px 16px;border:1px solid var(--line);background:transparent;border-radius:40px;cursor:pointer;color:var(--ink)}
-.tabs button.on{background:var(--ink);color:var(--bone);border-color:var(--ink)}
-.products{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-.prod .ph{position:relative;aspect-ratio:4/5;background:var(--sand);overflow:hidden;border-radius:3px}
-.prod .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
-.prod:hover .ph img{transform:scale(1.05)}
-.prod .tag{position:absolute;top:12px;left:12px;background:var(--bone);font-family:var(--cond);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:11.5px;padding:5px 9px}
-.prod .tag.sale{background:var(--rust);color:#fff}
-.prod .quick{position:absolute;left:12px;right:12px;bottom:12px;background:var(--ink);color:var(--bone);text-align:center;font-family:var(--cond);letter-spacing:.12em;text-transform:uppercase;font-size:13px;padding:11px;opacity:0;transform:translateY(8px);transition:.25s}
-.prod:hover .quick{opacity:1;transform:none}
-.prod .brand{font-family:var(--cond);letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:var(--muted);margin-top:14px}
-.prod h4{font-weight:500;font-size:16.5px;margin:3px 0 6px}
-.prod .price{font-weight:600}
-.prod .price s{color:var(--muted);font-weight:400;margin-left:8px}
-.swatches{display:flex;gap:6px;margin-top:8px}
-.swatches i{width:13px;height:13px;border-radius:50%;border:1px solid var(--line)}
+/* Tienda en línea */
+.shop-cta{background:var(--sand)}
+.shop-cta .grid{display:grid;grid-template-columns:1fr 1fr;background:var(--bone);border-radius:4px;overflow:hidden;box-shadow:0 40px 80px -50px rgba(28,22,19,.45)}
+.shop-cta .pic{position:relative;min-height:420px}
+.shop-cta .txt{padding:60px 56px;display:flex;flex-direction:column;justify-content:center}
+.shop-cta h2{margin:14px 0 18px}
+.shop-cta p{color:var(--muted);max-width:440px}
+.shop-cta .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn-sm{padding:10px 16px;font-size:13.5px}
+.btn-sm svg{width:18px;height:18px}
 
 /* Service */
 .service{background:var(--ink);color:var(--bone);padding:0}
@@ -255,7 +247,9 @@ body.notes .toggle-notes{background:#e0a800;color:#fff;border-color:#e0a800}
   .cats{grid-template-columns:1fr 1fr;grid-auto-rows:220px}
   .cats .cat{grid-column:span 1!important;grid-row:span 1!important}
   .cats .c1{grid-column:span 2!important;grid-row:span 2!important}
-  .products{grid-template-columns:1fr 1fr}
+  .shop-cta .grid{grid-template-columns:1fr}
+  .shop-cta .pic{min-height:300px}
+  .shop-cta .txt{padding:40px 22px}
   .service .grid,.story .grid,.visit .grid,.news .wrap{grid-template-columns:1fr}
   .service .pic{min-height:380px}
   .service .txt{padding:60px 28px}

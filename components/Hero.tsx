@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { img } from "@/data/content";
+import { contacto, img } from "@/data/content";
 import Note from "./Note";
 
 export default function Hero() {
@@ -16,17 +16,16 @@ export default function Hero() {
           el clima y el gusto de Costa Rica.
         </p>
         <div className="ctas">
-          <a href="#tienda" className="btn btn-rust">Comprar ahora →</a>
+          <a href={contacto.tiendaVirtual} className="btn btn-rust">Ver la tienda en línea →</a>
           <a href="#visitanos" className="btn btn-ghost">Visitar la tienda</a>
         </div>
       </div>
       <div className="hero-meta">Desde 2007 · Tienda familiar</div>
       <Note n={1} style={{ top: 16, left: "34%" }}>
-        Menú organizado por <b>lo que el cliente busca comprar</b> (Hombre, Mujer, Botas, Sombreros…), con
-        buscador, cuenta y carrito para que el sitio también funcione como tienda.
+        Menú claro con todo lo que el cliente busca saber, y un botón siempre visible hacia <b>su tienda en línea</b>.
       </Note>
       <Note n={2} style={{ top: 150, right: 40 }}>
-        Portada con sus propias fotos, un <b>mensaje claro y 2 acciones</b>: comprar en línea o visitar la tienda.
+        Portada con sus propias fotos, un <b>mensaje claro y 2 acciones</b>: ir a la tienda en línea o visitar la tienda en Liberia.
       </Note>
     </section>
   );

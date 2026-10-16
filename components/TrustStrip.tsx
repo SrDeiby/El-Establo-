@@ -1,9 +1,9 @@
-import { ReturnIcon, ShieldIcon, StoreIcon, TruckIcon } from "./icons";
+import { BagIcon, ShieldIcon, StoreIcon, TruckIcon } from "./icons";
 
 const items = [
-  { Icon: TruckIcon, titulo: "Envíos a todo el país", sub: "Correos de CR y mensajería" },
+  { Icon: BagIcon, titulo: "Tienda en línea", sub: "Con el inventario de la tienda" },
   { Icon: ShieldIcon, titulo: "Distribuidor autorizado", sub: "Producto 100% original" },
-  { Icon: ReturnIcon, titulo: "Cambios de talla", sub: "Fácil y sin complicaciones" },
+  { Icon: TruckIcon, titulo: "Frente a la Interamericana", sub: "Fácil de llegar, con parqueo" },
   { Icon: StoreIcon, titulo: "+18 años", sub: "En la industria vaquera" },
 ];
 

@@ -3,7 +3,7 @@ import { posts } from "@/data/content";
 
 export default function Blog() {
   return (
-    <section>
+    <section id="blog">
       <div className="wrap rel">
         <div className="head">
           <div>

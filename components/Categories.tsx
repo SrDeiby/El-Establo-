@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { categorias } from "@/data/content";
+import { categorias, contacto } from "@/data/content";
 import Note from "./Note";
 
 export default function Categories() {
@@ -17,7 +17,7 @@ export default function Categories() {
         </div>
         <div className="cats">
           {categorias.map((c) => (
-            <a key={c.titulo} className={`cat ${c.layout}`} href="#">
+            <a key={c.titulo} className={`cat ${c.layout}`} href={contacto.tiendaVirtual}>
               <Image
                 src={c.foto}
                 alt=""
@@ -36,8 +36,7 @@ export default function Categories() {
           ))}
         </div>
         <Note n={3} style={{ top: -20, right: 0 }}>
-          <b>7 categorías</b> con su propia foto, para que cada cliente llegue directo a lo que busca: ropa,
-          botas, sombreros o equipo para el caballo.
+          <b>7 categorías</b> con su propia foto. Cada una lleva directo a esa sección de <b>su tienda en línea</b>.
         </Note>
       </div>
     </section>
